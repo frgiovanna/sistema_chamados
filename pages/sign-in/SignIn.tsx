@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-import * as Style from "./styles";
+import * as Style from "../../styles/styles";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
