@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Button as FormButton, TextField } from "@material-ui/core";
 
-export const LoginWrapper = styled.div`
-  margin: 15%;
+export const Container = styled.div`
+  margin: 13%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,9 @@ export const Input = styled(TextField).attrs({
   variant: "outlined",
   size: "small",
 })`
+  width: 300px;
   .MuiOutlinedInput-root {
-    margin: 3px;
+    margin: 5px;
   }
 `;
 
@@ -30,7 +31,7 @@ export const ButtonWrapper = styled.div`
   justify-content: center;
   align-items: center;
   .MuiButtonBase-root {
-    margin: 10px;
+    margin: 12px;
   }
 `;
 
@@ -38,3 +39,13 @@ export const Button = styled(FormButton).attrs({
   variant: "contained",
   color: "primary",
 })``;
+
+export const RegisterWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .MuiButtonBase-root {
+    margin: 10px;
+  }
+`;

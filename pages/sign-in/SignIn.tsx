@@ -13,7 +13,7 @@ const SignIn = () => {
   }
 
   return (
-    <Style.LoginWrapper>
+    <Style.Container>
       <form onSubmit={handleSubmit}>
         <Style.Title>Insira seu email e senha para entrar</Style.Title>
         <Style.FieldsWrapper>
@@ -37,7 +37,7 @@ const SignIn = () => {
           </Style.Button>
         </Style.ButtonWrapper>
       </form>
-    </Style.LoginWrapper>
+    </Style.Container>
   );
 };
 
